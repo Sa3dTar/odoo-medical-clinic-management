@@ -1,0 +1,12 @@
+<odoo>
+    <data noupdate="1">
+        <!-- Medical Appointment Sequence -->
+        <record id="seq_medical_appointment" model="ir.sequence">
+            <field name="name">Medical Appointment Sequence</field>
+            <field name="code">medical.appointment</field>
+            <field name="prefix">APT/%(y)s/</field>
+            <field name="padding">4</field>
+            <field name="company_id" eval="False"/>
+        </record>
+    </data>
+</odoo>

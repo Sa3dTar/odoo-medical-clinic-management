@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_medical_appointment,medical.appointment.access,model_medical_appointment,base.group_user,1,1,1,1
+access_medical_record,medical.record.access,model_medical_record,base.group_user,1,1,1,1
+access_medical_prescription,medical.prescription.access,model_medical_prescription,base.group_user,1,1,1,1
+access_medical_prescription_line,medical.prescription.line.access,model_medical_prescription_line,base.group_user,1,1,1,1
+access_medical_doctor_commission,medical.doctor.commission.access,model_medical_doctor_commission,base.group_user,1,1,1,1

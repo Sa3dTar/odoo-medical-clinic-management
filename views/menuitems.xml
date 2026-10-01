@@ -1,0 +1,29 @@
+<odoo>
+    <menuitem id="menu_medical_root"
+              name="Medical Clinic"
+              sequence="10"/>
+
+    <menuitem id="menu_medical_appointment_category"
+              name="Appointments"
+              parent="menu_medical_root"
+              action="action_medical_appointment"
+              sequence="10"/>
+
+    <menuitem id="menu_medical_records"
+              name="Medical Records"
+              parent="menu_medical_root"
+              action="action_medical_record"
+              sequence="20"/>
+
+    <menuitem id="menu_medical_prescriptions"
+              name="Prescriptions"
+              parent="menu_medical_root"
+              action="action_medical_prescription"
+              sequence="30"/>
+
+    <menuitem id="menu_medical_commissions"
+              name="Doctor Commissions"
+              parent="menu_medical_root"
+              action="action_medical_doctor_commission"
+              sequence="40"/>
+</odoo>

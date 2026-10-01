@@ -1,0 +1,506 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* medical_module
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0-20260522\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 10:26+0000\n"
+"PO-Revision-Date: 2026-10-01 10:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_needaction
+msgid "Action Needed"
+msgstr "إجراء مطلوب"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "تنسيق استثناء النشاط"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "أيقونة نوع النشاط"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__instructions
+msgid "Additional Instructions"
+msgstr "تعليمات إضافية"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__appointment_id
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__appointment_id
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__appointment_id
+msgid "Appointment"
+msgstr "الموعد"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__appointment_date
+msgid "Appointment Date & Time"
+msgstr "تاريخ ووقت الموعد"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__name
+msgid "Appointment Reference"
+msgstr "مرجع الموعد"
+
+#. module: medical_module
+#: model:ir.actions.act_window,name:medical_module.action_medical_appointment
+#: model:ir.ui.menu,name:medical_module.menu_medical_appointment_category
+msgid "Appointments"
+msgstr "المواعيد"
+
+#. module: medical_module
+#: model:ir.model.fields.selection,name:medical_module.selection__medical_doctor_commission__state__approved
+msgid "Approved"
+msgstr "معتمد"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__blood_pressure
+msgid "Blood Pressure"
+msgstr "ضغط الدم"
+
+#. module: medical_module
+#: model:ir.model.fields.selection,name:medical_module.selection__medical_appointment__state__cancelled
+msgid "Cancelled"
+msgstr "ملغي"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__commission_percentage
+msgid "Commission Percentage (%)"
+msgstr "نسبة العمولة (%)"
+
+#. module: medical_module
+#: model:ir.model.fields.selection,name:medical_module.selection__medical_appointment__state__confirmed
+msgid "Confirmed"
+msgstr "مؤكد"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__total_amount
+msgid "Consultation Amount"
+msgstr "قيمة الاستشارة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__consultation_fee
+msgid "Consultation Fee"
+msgstr "رسوم الاستشارة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__create_uid
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__create_uid
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__create_uid
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__create_uid
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__create_uid
+msgid "Created by"
+msgstr "أنشأه"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__create_date
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__create_date
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__create_date
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__create_date
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__create_date
+msgid "Created on"
+msgstr "تاريخ الإنشاء"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__currency_id
+msgid "Currency"
+msgstr "العملة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__invoice_id
+msgid "Customer Invoice"
+msgstr "فاتورة العميل"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: medical_module
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_record_form
+msgid "Diagnosis & Notes"
+msgstr "التشخيص والملاحظات"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__diagnosis
+msgid "Diagnosis / Notes"
+msgstr "التشخيص / الملاحظات"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__display_name
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__display_name
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__display_name
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__display_name
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__doctor_id
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__doctor_id
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__doctor_id
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__doctor_id
+msgid "Doctor"
+msgstr "الطبيب"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__commission_amount
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_doctor_commission_form
+msgid "Doctor Commission"
+msgstr "عمولة الطبيب"
+
+#. module: medical_module
+#: model:ir.model,name:medical_module.model_medical_doctor_commission
+msgid "Doctor Commission Management"
+msgstr "إدارة عمولات الأطباء"
+
+#. module: medical_module
+#: model:ir.actions.act_window,name:medical_module.action_medical_doctor_commission
+#: model:ir.ui.menu,name:medical_module.menu_medical_commissions
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_doctor_commission_tree
+msgid "Doctor Commissions"
+msgstr "عمولات الأطباء"
+
+#. module: medical_module
+#: model:ir.model.fields.selection,name:medical_module.selection__medical_appointment__state__done
+msgid "Done"
+msgstr "تم"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__dose
+msgid "Dose (e.g., 1 tablet)"
+msgstr "الجرعة (مثال: قرص واحد)"
+
+#. module: medical_module
+#: model:ir.model.fields.selection,name:medical_module.selection__medical_appointment__state__draft
+#: model:ir.model.fields.selection,name:medical_module.selection__medical_doctor_commission__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__duration
+msgid "Duration (e.g., 5 days)"
+msgstr "المدة (مثال: 5 أيام)"
+
+#. module: medical_module
+#: model:ir.model,name:medical_module.model_medical_record
+msgid "Electronic Medical Record (EMR)"
+msgstr "السجل الطبي الإلكتروني (EMR)"
+
+#. module: medical_module
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_record_form
+msgid "Enter clinical diagnosis and notes here..."
+msgstr "أدخل التشخيص السريري والملاحظات هنا..."
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (جهات الاتصال)"
+
+#. module: medical_module
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة Font Awesome، مثال: fa-tasks"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__frequency
+msgid "Frequency (e.g., 3 times daily)"
+msgstr "معدل التكرار (مثال: 3 مرات يوميًا)"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__has_message
+msgid "Has Message"
+msgstr "يحتوي على رسالة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__heart_rate
+msgid "Heart Rate"
+msgstr "معدل ضربات القلب"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__id
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__id
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__id
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__id
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__id
+msgid "ID"
+msgstr "المعرّف"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__activity_exception_icon
+msgid "Icon"
+msgstr "الأيقونة"
+
+#. module: medical_module
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى وجود استثناء في النشاط."
+
+#. module: medical_module
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "عند التحديد، تتطلب الرسائل الجديدة انتباهك."
+
+#. module: medical_module
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__message_has_error
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "عند التحديد، توجد أخطاء في تسليم بعض الرسائل."
+
+#. module: medical_module
+#: model:ir.model.fields.selection,name:medical_module.selection__medical_appointment__state__in_consultation
+msgid "In Consultation"
+msgstr "قيد الاستشارة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__invoice_id
+msgid "Invoice"
+msgstr "الفاتورة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_is_follower
+msgid "Is Follower"
+msgstr "متابع"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__write_uid
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__write_uid
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__write_uid
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__write_uid
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__write_date
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__write_date
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__write_date
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__write_date
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: medical_module
+#: model:ir.model,name:medical_module.model_medical_appointment
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_appointment_form
+msgid "Medical Appointment"
+msgstr "موعد طبي"
+
+#. module: medical_module
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_appointment_list
+msgid "Medical Appointments"
+msgstr "المواعيد الطبية"
+
+#. module: medical_module
+#: model:ir.ui.menu,name:medical_module.menu_medical_root
+msgid "Medical Clinic"
+msgstr "العيادة الطبية"
+
+#. module: medical_module
+#: model:ir.model,name:medical_module.model_medical_prescription
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_prescription_form
+msgid "Medical Prescription"
+msgstr "الوصفة الطبية"
+
+#. module: medical_module
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_record_form
+msgid "Medical Record"
+msgstr "السجل الطبي"
+
+#. module: medical_module
+#: model:ir.actions.act_window,name:medical_module.action_medical_record
+#: model:ir.ui.menu,name:medical_module.menu_medical_records
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_record_tree
+msgid "Medical Records"
+msgstr "السجلات الطبية"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__medicine_name
+msgid "Medicine Name"
+msgstr "اسم الدواء"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: medical_module
+#. odoo-python
+#: code:addons/medical_module/models/medical_appointment.py:0
+msgid "New"
+msgstr "جديد"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط التالي"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط التالي"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: medical_module
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب إجراءً"
+
+#. module: medical_module
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: medical_module
+#: model:ir.model.fields.selection,name:medical_module.selection__medical_doctor_commission__state__paid
+msgid "Paid"
+msgstr "مدفوع"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__patient_id
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__patient_id
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__patient_id
+msgid "Patient"
+msgstr "المريض"
+
+#. module: medical_module
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_prescription_form
+msgid "Prescribed Medicines"
+msgstr "الأدوية الموصوفة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__prescription_id
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription_line__prescription_id
+msgid "Prescription"
+msgstr "الوصفة الطبية"
+
+#. module: medical_module
+#: model:ir.model,name:medical_module.model_medical_prescription_line
+msgid "Prescription Line"
+msgstr "بند الوصفة الطبية"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__line_ids
+msgid "Prescription Lines"
+msgstr "بنود الوصفة الطبية"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_prescription__name
+msgid "Prescription Reference"
+msgstr "مرجع الوصفة الطبية"
+
+#. module: medical_module
+#: model:ir.actions.act_window,name:medical_module.action_medical_prescription
+#: model:ir.ui.menu,name:medical_module.menu_medical_prescriptions
+#: model_terms:ir.ui.view,arch_db:medical_module.view_medical_prescription_tree
+msgid "Prescriptions"
+msgstr "الوصفات الطبية"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل النصية"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__state
+#: model:ir.model.fields,field_description:medical_module.field_medical_doctor_commission__state
+msgid "Status"
+msgstr "الحالة"
+
+#. module: medical_module
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__temperature
+msgid "Temperature (°C)"
+msgstr "درجة الحرارة (°C)"
+
+#. module: medical_module
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع النشاط الاستثنائي في السجل."
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__visit_date
+msgid "Visit Date"
+msgstr "تاريخ الزيارة"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_appointment__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع الإلكتروني"
+
+#. module: medical_module
+#: model:ir.model.fields,help:medical_module.field_medical_appointment__website_message_ids
+msgid "Website communication history"
+msgstr "سجل التواصل عبر الموقع الإلكتروني"
+
+#. module: medical_module
+#: model:ir.model.fields,field_description:medical_module.field_medical_record__weight
+msgid "Weight (kg)"
+msgstr "الوزن (كجم)"
