@@ -1,4 +1,4 @@
-from odoo import models, fields, api
+from odoo import models, fields, api , _
 
 class MedicalAppointment(models.Model):
     _name = 'medical.appointment'
